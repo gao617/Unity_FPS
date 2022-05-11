@@ -10,7 +10,7 @@ public class ShootPoint : MonoBehaviour
     void Update()
     {
         Ray ray = new Ray(gun.transform.position, gun.transform.forward);
-        if (Physics.Raycast(ray, out RaycastHit raycastHit))
+        if (Physics.Raycast(ray, out RaycastHit raycastHit) && !raycastHit.collider.CompareTag("bullet"))
         {
             transform.position = raycastHit.point;
         }

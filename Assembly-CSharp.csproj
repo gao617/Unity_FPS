@@ -59,7 +59,7 @@
      <Compile Include="Assets\Code\shield.cs" />
      <Compile Include="Assets\Code\PlayerMove.cs" />
      <Compile Include="Assets\Code\Wrapper.cs" />
-     <Compile Include="Assets\Code\MouseLook.cs" />
+     <Compile Include="Assets\Code\GunScript.cs" />
      <Compile Include="Assets\MobilityArts\SciFiHandGun\Scripts\OrbitAroundTarget.cs" />
      <Compile Include="Assets\Code\Gun.cs" />
      <None Include="Assets\Sci-Fi Styled Modular Pack\Readme.txt" />

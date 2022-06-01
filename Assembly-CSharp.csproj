@@ -58,6 +58,7 @@
      <Compile Include="Assets\Code\ShootPoint.cs" />
      <Compile Include="Assets\Code\shield.cs" />
      <Compile Include="Assets\Code\PlayerMove.cs" />
+     <Compile Include="Assets\BulletScript.cs" />
      <Compile Include="Assets\Code\Wrapper.cs" />
      <Compile Include="Assets\Code\GunScript.cs" />
      <Compile Include="Assets\MobilityArts\SciFiHandGun\Scripts\OrbitAroundTarget.cs" />

@@ -32,12 +32,12 @@ public class Enemy_shoot : MonoBehaviour
         if (Physics.Raycast(ray, out hit, Mathf.Infinity))
         {
             // Debug.Log("Object: " + hit.collider.name);
-            if (hit.collider.CompareTag("Shield"))
-            {
-                Wrapper script = GameObject.Find("Camera").gameObject.GetComponent<Wrapper>(); //get the wrapper script under camera game object
-                script.shieldHit = true;
-                Debug.Log("Shield is hit ");
-            }
+            // if (hit.collider.CompareTag("Shield"))
+            // {
+            //     Wrapper script = GameObject.Find("Camera").gameObject.GetComponent<Wrapper>(); //get the wrapper script under camera game object
+            //     script.shieldHit = true;
+            //     Debug.Log("Shield is hit ");
+            // }
 
             Target target = hit.transform.GetComponent<Target>();
             GameObject gb = Instantiate(bullet, transform.position, transform.rotation);

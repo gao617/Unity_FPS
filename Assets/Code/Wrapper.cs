@@ -41,7 +41,7 @@ public class Wrapper : MonoBehaviour
     void Start()
     {
         byte numDevices = InitializeDevices();
-        Debug.Log("numDevices is" + numDevices);
+        Debug.Log("numDevices is " + numDevices);
 
         devices = new int[]{GetAerowandHand1(), GetAerowandHand2()}; //get left and right controllers
         Debug.Log("devices are" + devices[0] + ", "+ devices[1]);
